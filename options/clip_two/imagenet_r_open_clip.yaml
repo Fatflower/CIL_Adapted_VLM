@@ -1,0 +1,51 @@
+######### Basic Settings #########
+basic:
+    device: '9'
+    seed: [100] # icarl 官方代码给的种子是 1993  42, 100, 1993
+
+    # Dataset Choises: cifar100_i2t, cifar100_i2t_few_shot
+    dataset: imagenetr_i2t
+    shuffle: false
+
+    # Method Choises: icarl, end2end, dr, ucir, bic, lwm, podnet, mas, joint， finetune
+    method: clip_two_open_clip
+    method_type: multi_steps
+    # eval_metric Choises: acc, mcr
+    eval_metric: mcr
+
+    # Backbone Choises: clip_vit_base_patch16_224
+    backbone: ViT-B-16 
+    ######### Task Settings, unimportant in Joint #########
+    split_dataset: true
+    init_cls: 20
+    increment: 20
+    
+    note: test
+######### Method's Hyperparameters #########
+special:
+    incre_type: cil
+    m_desp: false # Whether touse multiple text descriptions
+    lambd: 1 # hyperparameter of image to image similarity
+    beta: 1 # hyperparameter of image to text similarity
+    alpha: 1 # hyperparameter of ce loss # 0.5 0.7 0.9 1 1.1 1.2 1.5
+    gama: 1 # hyperparameter of text distance loss # 0.5 0.7 0.9 1 1.1 1.2 1.5
+    theta: 1 # hyperparameter of text unchange loss # 0.5 0.7 0.9 1 1.1 1.2 1.5
+    sim_threshold: 0.60 # Threshold of the similarity between text embeddings
+    is_OOD_test: false # Whether to do OOD testing  # true false
+    T: 1 # Temperature of the softmax function
+
+######### Experiment Settings for Datasets #########
+options:
+    # experiment settings for cifar100
+    imagenetr_i2t: 
+        ViT-B-16:
+            img_size: 224
+
+            epochs: 10 # 70
+            batch_size: 64
+            num_workers: 4            
+
+            opt_type: adamw
+            lrate: 0.005 # 0.01 # 0.005
+            weight_decay: 0.1
+            
