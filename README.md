@@ -107,7 +107,7 @@ You are also welcome to reference my other work:
 
 For questions, suggestions, or collaborations, feel free to reach out:
 
--  GitHub Issues: [https://github.com/yourname/yourproject/issues](https://github.com/yourname/yourproject/issues)
+-  GitHub Issues: [https://github.com/Fatflower/CIL_Adapted_VLM/issues](https://github.com/Fatflower/CIL_Adapted_VLM/issues)
 -  Email: zhangwt65@mail2.sysu.edu.cn
 
 We welcome contributions and feedback!
