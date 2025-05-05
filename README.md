@@ -61,3 +61,55 @@ Make sure that:
 - `--test_dir` points to the directory containing your trained model logs and checkpoints.
 
 
+
+
+##  Citation
+
+If you use this project in your research, please cite:
+```bibtex
+@article{zhang2025visual,
+  title   = {Visual Class Incremental Learning with Textual Priors Guidance based on an Adapted Vision-Language Model},
+  author  = {Zhang, Wentao and Yu, Tong and Wang, Ruixuan and Xie, Jianhui and Trucco, Emanuele and Zheng, Wei-Shi and Yang, Xiaobo},
+  journal = {IEEE Transactions on Multimedia},
+  year    = {2025},
+  publisher = {IEEE}
+}
+
+```
+---
+
+You are also welcome to reference my other work:
+
+**Title**: Continual Learning of Image Classes With Language Guidance From a Vision-Language Model
+
+**Citation**:
+```bibtex
+@article{zhang2024continual,
+  title   = {Continual Learning of Image Classes With Language Guidance From a Vision-Language Model},
+  author  = {Zhang, Wentao and Huang, Yujun and Zhang, Weizhuo and Zhang, Tong and Lao, Qicheng and Yu, Yue and Zheng, Wei-Shi and Wang, Ruixuan},
+  journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+  year    = {2024},
+  publisher = {IEEE}
+}
+
+```
+
+- **IEEE Link**: https://ieeexplore.ieee.org/abstract/document/10644076
+
+- **GitHub Repo**: https://github.com/Fatflower/CIL_LG_VLM
+
+
+
+
+---
+
+##  Contact
+
+For questions, suggestions, or collaborations, feel free to reach out:
+
+-  GitHub Issues: [https://github.com/yourname/yourproject/issues](https://github.com/yourname/yourproject/issues)
+-  Email: zhangwt65@mail2.sysu.edu.cn
+
+We welcome contributions and feedback!
+
+---
