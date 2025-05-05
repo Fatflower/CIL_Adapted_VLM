@@ -20,7 +20,7 @@ basic:
     init_cls: 20
     increment: 20
     
-    note: test
+    note: seed_100
 ######### Method's Hyperparameters #########
 special:
     incre_type: cil

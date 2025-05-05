@@ -47,7 +47,6 @@ defusedxml==0.7.1
 dill==0.3.7
 diskcache==5.6.1
 distlib==0.3.7
-docker-pycreds==0.4.0
 docutils==0.16
 einops==0.4.1
 entrypoints @ file:///tmp/build/80754af9/entrypoints_1649926445639/work
@@ -69,7 +68,6 @@ google-auth-oauthlib==0.4.6
 googleapis-common-protos==1.60.0
 gptcache==0.1.39.1
 graphviz==0.20.1
--e git+ssh://git@github.com/IDEA-Research/GroundingDINO.git@60d796825e1266e56f7e4e9e00e88de662b67bd3#egg=groundingdino
 grpcio==1.50.0
 guidance==0.0.64
 h11==0.14.0

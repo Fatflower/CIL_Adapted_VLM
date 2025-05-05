@@ -1,7 +1,7 @@
 ######### Basic Settings #########
 basic:
     device: '9'
-    seed: [100] # icarl 官方代码给的种子是 1993  42, 100, 1993   
+    seed: [50] # icarl 官方代码给的种子是 1993  42, 100, 1993   
 
     # Dataset Choises: cifar100_i2t, cifar100_i2t_few_shot
     dataset: cifar100_i2t
@@ -30,7 +30,7 @@ special:
     alpha: 1 # hyperparameter of ce loss # 0.5 0.7 0.9 1 1.1 1.2 1.5
     gama: 1 # hyperparameter of text distance loss # 0.5 0.7 0.9 1 1.1 1.2 1.5
     theta: 1 # hyperparameter of text unchange loss # 0.5 0.7 0.9 1 1.1 1.2 1.5
-    sim_threshold: 0.7 # Threshold of the similarity between text embeddings
+    sim_threshold: 0.8 # Threshold of the similarity between text embeddings
     is_OOD_test: false # Whether to do OOD testing  # true false
     T: 1 # Temperature of the softmax function
 
