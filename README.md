@@ -36,7 +36,7 @@ Before running the project, make sure you have the necessary datasets ready. All
 ## Training
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python main_test.py --config options/clip_two/imagenet_r.yaml
+CUDA_VISIBLE_DEVICES=0 python main.py --config options/clip_two/imagenet_r.yaml
 
 ```
 **Note:**  
