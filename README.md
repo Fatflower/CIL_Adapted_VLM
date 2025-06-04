@@ -1,7 +1,12 @@
 # Visual Class Incremental Learning with Textual Priors Guidance based on an Adapted Vision-Language Model
 This is the official repository for Pytorch Implementation of "Visual Class Incremental Learning with Textual Priors Guidance based on an Adapted Vision-Language Model". 
 
+## Framework
+![*Framework*](imgs/CIL_Adapted_VLM_Framework.png)
 
+
+## Main results
+![*Main results*](imgs/CIL_Adapted_VLM_main_results.png)
 
 
 ## Installation
@@ -108,7 +113,7 @@ You are also welcome to reference my other work:
 For questions, suggestions, or collaborations, feel free to reach out:
 
 -  GitHub Issues: [https://github.com/Fatflower/CIL_Adapted_VLM/issues](https://github.com/Fatflower/CIL_Adapted_VLM/issues)
--  Email: zhangwt65@mail2.sysu.edu.cn
+-  Email: zhangwt65@mail2.sysu.edu.cn / z1282429194@163.com
 
 We welcome contributions and feedback!
 
